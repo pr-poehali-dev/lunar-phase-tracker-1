@@ -7,27 +7,24 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "За несколько минут мы превратили данные в практические выводы. Процесс был бесшовным и невероятно эффективным!",
-      name: "Анна Петрова",
-      company: "Сооснователь, TechStart",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
+        "Я думал, что попробую один раз и остановлюсь. Прошло три года, прежде чем я смог выбраться. Этот сайт — то, что мне было нужно в 16 лет.",
+      name: "Алексей, 24 года",
+      company: "Прошёл реабилитацию, сейчас помогает другим",
+      image: "/professional-man-avatar-with-beard-and-glasses-loo.jpg",
     },
     {
       quote:
-        "Бриллиант революционизировал работу с индивидуальными контрактами. Автоматизация экономит нам часы каждую неделю и полностью исключает ошибки.",
-      name: "Сергей Иванов",
-      company: "Директор по операциям, DataFlow",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
+        "Моя дочь показала мне этот сайт. Я не знала, как говорить с ней о наркотиках. Теперь мы разговариваем — и это уже победа.",
+      name: "Марина, 42 года",
+      company: "Мама двоих детей, Москва",
+      image: "/professional-woman-avatar-with-short-brown-hair-an.jpg",
     },
     {
       quote:
-        "Автоматизация биллинга — это настоящий прорыв. То, что раньше занимало у команды дни, теперь происходит автоматически с идеальной точностью.",
-      name: "Мария Козлова",
-      company: "Финансовый директор, InnovateCorp",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
+        "Викторина открыла глаза — я думал, что знаю всё. Оказалось, многие мои убеждения были мифами. Поделился с классом — теперь все знают правду.",
+      name: "Денис, 17 лет",
+      company: "Ученик 11 класса, Санкт-Петербург",
+      image: "/professional-person-avatar-with-curly-hair-and-war.jpg",
     },
   ];
 

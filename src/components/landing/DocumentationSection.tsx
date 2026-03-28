@@ -22,18 +22,18 @@ export default function DocumentationSection() {
 
   const cards = [
     {
-      title: "Планируйте расписание",
-      description: "Исследуйте данные, создавайте дашборды,\nобъединяйте команду.",
+      title: "Шаг 1: Читай и узнавай",
+      description: "Изучи факты о наркотиках, их воздействии\nна организм и последствиях для жизни.",
       image: "/modern-dashboard-interface-with-data-visualization.jpg",
     },
     {
-      title: "От данных к инсайтам за минуты",
-      description: "Превращайте сырые данные в действенные выводы\nс помощью мощных инструментов аналитики.",
+      title: "Шаг 2: Проверь знания",
+      description: "Пройди интерактивную викторину\nи узнай свой уровень осведомлённости.",
       image: "/analytics-dashboard.png",
     },
     {
-      title: "Работайте вместе без усилий",
-      description: "Работайте в режиме реального времени с командой\nи делитесь инсайтами мгновенно.",
+      title: "Шаг 3: Поделись с другими",
+      description: "Расскажи друзьям и близким.\nКаждый знающий человек — это защита для других.",
       image: "/team-collaboration-interface-with-shared-workspace.jpg",
     },
   ];
@@ -61,15 +61,15 @@ export default function DocumentationSection() {
             icon={
               <div className="w-[10.50px] h-[10.50px] outline outline-[1.17px] outline-[#37322F] outline-offset-[-0.58px] rounded-full"></div>
             }
-            text="Возможности платформы"
+            text="Как это работает"
           />
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Оптимизируйте бизнес-процессы
+            Три шага к осознанному выбору
           </div>
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Управляйте расписанием, анализируйте данные и работайте с командой
+            Узнай, проверь себя и помоги другим —
             <br />
-            на одной мощной платформе.
+            всё просто и понятно.
           </div>
         </div>
       </div>

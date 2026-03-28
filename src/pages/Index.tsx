@@ -6,7 +6,7 @@ import NumbersThatSpeak from "@/components/landing/NumbersThatSpeak";
 import DocumentationSection from "@/components/landing/DocumentationSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import FAQSection from "@/components/landing/FAQSection";
-import PricingSection from "@/components/landing/PricingSection";
+import QuizSection from "@/components/landing/QuizSection";
 import CTASection from "@/components/landing/CTASection";
 import FooterSection from "@/components/landing/FooterSection";
 
@@ -118,23 +118,23 @@ export default function Index() {
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
                     <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      Бриллиант
+                      НетНаркотикам
                     </div>
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
                     <div className="flex justify-start items-center">
                       <div className="flex flex-col justify-center text-[rgba(49,45,43,0.80)] text-xs md:text-[13px] font-medium leading-[14px] font-sans">
-                        Продукты
+                        О проблеме
                       </div>
                     </div>
                     <div className="flex justify-start items-center">
                       <div className="flex flex-col justify-center text-[rgba(49,45,43,0.80)] text-xs md:text-[13px] font-medium leading-[14px] font-sans">
-                        Тарифы
+                        Викторина
                       </div>
                     </div>
                     <div className="flex justify-start items-center">
                       <div className="flex flex-col justify-center text-[rgba(49,45,43,0.80)] text-xs md:text-[13px] font-medium leading-[14px] font-sans">
-                        Документация
+                        Помощь
                       </div>
                     </div>
                   </div>
@@ -154,12 +154,12 @@ export default function Index() {
               <div className="w-full max-w-[937px] lg:w-[937px] flex flex-col justify-center items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 <div className="self-stretch rounded-[3px] flex flex-col justify-center items-center gap-4 sm:gap-5 md:gap-6 lg:gap-8">
                   <div className="w-full max-w-[748.71px] lg:w-[748.71px] text-center flex justify-center flex-col text-[#37322F] text-[24px] sm:text-[36px] md:text-[52px] lg:text-[80px] font-normal leading-[1.1] sm:leading-[1.15] md:leading-[1.2] lg:leading-[96px] font-serif px-2 sm:px-4 md:px-0">
-                    Автоматизация биллинга
+                    Скажи НЕТ наркотикам
                   </div>
                   <div className="w-full max-w-[506.08px] lg:w-[506.08px] text-center flex justify-center flex-col text-[rgba(55,50,47,0.80)] sm:text-lg md:text-xl leading-[1.4] sm:leading-[1.45] md:leading-[1.5] lg:leading-7 font-sans px-2 sm:px-4 md:px-0 lg:text-lg font-medium text-sm">
-                    Оптимизируйте процесс выставления счетов
+                    Узнай правду о наркотиках, проверь свои знания
                     <br className="hidden sm:block" />
-                    с бесшовной автоматизацией от Бриллиант.
+                    и помоги другим сделать правильный выбор.
                   </div>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function Index() {
                   <div className="h-10 sm:h-11 md:h-12 px-6 sm:px-8 md:px-10 lg:px-12 py-2 sm:py-[6px] relative bg-[#37322F] shadow-[0px_0px_0px_2.5px_rgba(255,255,255,0.08)_inset] overflow-hidden rounded-full flex justify-center items-center cursor-pointer hover:bg-[#2A2520] transition-colors">
                     <div className="w-20 sm:w-24 md:w-28 lg:w-44 h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                     <div className="flex flex-col justify-center text-white text-sm sm:text-base md:text-[15px] font-medium leading-5 font-sans">
-                      Начать бесплатно
+                      Пройти викторину
                     </div>
                   </div>
                 </div>
@@ -246,22 +246,22 @@ export default function Index() {
 
                 <div className="flex-1 px-0 sm:px-2 md:px-0 flex flex-col md:flex-row justify-center items-stretch gap-0">
                   <FeatureCard
-                    title="Планирование расписания"
-                    description="Управляйте подписками клиентов и выставлением счетов с помощью автоматизированных инструментов."
+                    title="Факты о наркотиках"
+                    description="Узнай реальные последствия употребления наркотиков для здоровья, психики и жизни."
                     isActive={activeCard === 0}
                     progress={activeCard === 0 ? progress : 0}
                     onClick={() => handleCardClick(0)}
                   />
                   <FeatureCard
-                    title="Аналитика и инсайты"
-                    description="Превращайте бизнес-данные в практические выводы с помощью аналитики в реальном времени."
+                    title="Проверь свои знания"
+                    description="Пройди интерактивную викторину и узнай, насколько хорошо ты разбираешься в теме."
                     isActive={activeCard === 1}
                     progress={activeCard === 1 ? progress : 0}
                     onClick={() => handleCardClick(1)}
                   />
                   <FeatureCard
-                    title="Командная работа"
-                    description="Держите команду в курсе с общими дашбордами и совместными рабочими процессами."
+                    title="Как помочь близким"
+                    description="Практические советы: как распознать проблему и где найти помощь для себя и близких."
                     isActive={activeCard === 2}
                     progress={activeCard === 2 ? progress : 0}
                     onClick={() => handleCardClick(2)}
@@ -291,15 +291,15 @@ export default function Index() {
                           <rect x="7" y="1" width="4" height="8" stroke="#37322F" strokeWidth="1" fill="none" />
                         </svg>
                       }
-                      text="Доверие"
+                      text="Статистика"
                     />
                     <div className="w-full max-w-[472.55px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Уверенность, подкрепленная результатами
+                      Цифры, которые нельзя игнорировать
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Наши клиенты достигают большего каждый день,
+                      Каждый год наркотики уносят миллионы жизней.
                       <br className="hidden sm:block" />
-                      потому что их инструменты просты, мощны и понятны.
+                      Знание — первый шаг к защите себя и близких.
                     </div>
                   </div>
                 </div>
@@ -318,16 +318,25 @@ export default function Index() {
                   </div>
 
                   <div className="flex-1 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-0 border-l border-r border-[rgba(55,50,47,0.12)]">
-                    {Array.from({ length: 8 }).map((_, index) => (
+                    {[
+                      { num: "35 млн", label: "употребляют наркотики" },
+                      { num: "500 000+", label: "смертей в год" },
+                      { num: "15–25", label: "возраст первого употребления" },
+                      { num: "80%", label: "начинают с лёгких наркотиков" },
+                      { num: "1 из 5", label: "подростков пробовал наркотики" },
+                      { num: "10 лет", label: "сокращает жизнь" },
+                      { num: "200 млрд $", label: "теряет мировая экономика" },
+                      { num: "3 мин", label: "до первого звонка о помощи: 8-800-200-0-200" },
+                    ].map((item, index) => (
                       <div
                         key={index}
-                        className="h-24 sm:h-32 md:h-36 lg:h-40 flex justify-center items-center gap-1 sm:gap-3 border-b border-[rgba(227,226,225,0.5)] border-r border-[#E3E2E1]"
+                        className="h-24 sm:h-32 md:h-36 lg:h-40 flex flex-col justify-center items-center gap-1 border-b border-[rgba(227,226,225,0.5)] border-r border-[#E3E2E1] px-2"
                       >
-                        <div className="w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 lg:w-10 lg:h-10 relative shadow-[0px_-4px_8px_rgba(255,255,255,0.64)_inset] overflow-hidden rounded-full">
-                          <img src="/horizon-icon.svg" alt="Horizon" className="w-full h-full object-contain" />
+                        <div className="text-center text-[#37322F] text-lg sm:text-2xl md:text-3xl font-bold leading-tight font-serif">
+                          {item.num}
                         </div>
-                        <div className="text-center flex justify-center flex-col text-[#37322F] text-sm sm:text-lg md:text-xl lg:text-2xl font-medium leading-tight md:leading-9 font-sans">
-                          Acute
+                        <div className="text-center text-[#605A57] text-[10px] sm:text-xs md:text-sm font-normal leading-tight font-sans">
+                          {item.label}
                         </div>
                       </div>
                     ))}
@@ -362,12 +371,12 @@ export default function Index() {
                       text="Возможности"
                     />
                     <div className="w-full max-w-[598.06px] lg:w-[598.06px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Создано для ясности и сосредоточенной работы
+                      Что ты найдёшь на этом сайте
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Оставайтесь сфокусированными с инструментами, которые организуют,
+                      Честная информация, интерактивная игра и реальная помощь —
                       <br />
-                      связывают и превращают информацию в уверенные решения.
+                      всё для того, чтобы сделать правильный выбор.
                     </div>
                   </div>
                 </div>
@@ -388,10 +397,10 @@ export default function Index() {
                     <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Умно. Просто. Гениально.
+                          Знай факты. Защити себя.
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Ваши данные красиво организованы, чтобы вы видели все четко без лишнего шума.
+                          Вся информация о видах наркотиков, их последствиях и признаках зависимости — в одном месте.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
@@ -407,10 +416,10 @@ export default function Index() {
                     <div className="border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] font-semibold leading-tight font-sans text-lg sm:text-xl">
-                          Ваша работа синхронизирована
+                          Поговори. Помоги. Действуй.
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Каждое обновление мгновенно передается вашей команде, делая совместную работу легкой и быстрой.
+                          Если ты или твой близкий в беде — не молчи. Здесь ты найдёшь, куда обратиться за помощью.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden text-right items-center justify-center">
@@ -478,7 +487,7 @@ export default function Index() {
 
               <DocumentationSection />
               <TestimonialsSection />
-              <PricingSection />
+              <QuizSection />
               <FAQSection />
               <CTASection />
               <FooterSection />
