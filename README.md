@@ -1,3 +1,18 @@
-# lunar-phase-tracker-1
+# Бриллиант — автоматизация биллинга
 
-Initial repository setup for pr-poehali-dev/lunar-phase-tracker-1
+![Preview](https://cdn.poehali.dev/templates/brillance-saas-ru/preview-ru.jpg)
+
+SaaS-лендинг для платформы автоматизации биллинга и выставления счетов. Элегантная светлая тема с градиентными акцентами и шрифтом с засечками для заголовков. Идеально для финтех-продуктов и B2B-сервисов.
+
+Включает:
+- Hero с заголовком и CTA
+- Демонстрация функций
+- Социальное доказательство (логотипы)
+- Bento-сетка возможностей
+- Отзывы клиентов
+- Три тарифных плана
+- FAQ секция
+
+```
+"tags": ["saas", "gradient", "fintech", "pricing", "testimonials"]
+```
